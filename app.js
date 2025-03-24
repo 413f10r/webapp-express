@@ -9,7 +9,7 @@ import setImagePath from './middelwares/imgPath.js';
 //middleware cors 
 app.use(
     cors({
-        origin: "http://localhost:5173 " //origin: process.env.FRONTEND_APP,
+        origin: "http://localhost:5173" //origin: process.env.FRONTEND_APP,
     })
 );
 app.use(express.static('public'))
